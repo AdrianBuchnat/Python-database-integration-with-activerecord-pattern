@@ -18,6 +18,7 @@ CREATE_MESSAGES_TABLE = """CREATE TABLE messages(
 DB_USER = "postgres"
 DB_PASSWORD = "admin12345"
 DB_HOST = "127.0.0.1"
+DATABASE = "databaseintegration"
 
 try:
     cnx = connect(user=DB_USER, password=DB_PASSWORD, host=DB_HOST)
@@ -33,7 +34,7 @@ except OperationalError as e:
     print("Connection Error: ", e)
 
 try:
-    cnx = connect(database="databaseintegration", user=DB_USER, password=DB_PASSWORD, host=DB_HOST)
+    cnx = connect(database=DATABASE, user=DB_USER, password=DB_PASSWORD, host=DB_HOST)
     cnx.autocommit = True
     cursor = cnx.cursor()
 
