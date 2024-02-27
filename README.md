@@ -4,8 +4,7 @@
 This is a console application for sending messages. It can be controlled through the console using the argparse module. The application connects to a PostgreSQL database using the psycopg2 tool (included in the requirements.txt file). This is a demonstration project, so there won't be any possibility to commit to it. It is intended for use in my CV/portfolio. To run the project locally, you need to have Python installed. The file for creating a new database is named "create_db.py" in the project. Just replace the username and password that allow you to log in to PostgreSQL.
 
 ### Techstack
-Python ![python](https://user-images.githubusercontent.com/25181517/183423507-c056a6f9-1ba8-4312-a350-19bcbc5a8697.png)
-PostgreSQL ![PostgreSQL](https://user-images.githubusercontent.com/25181517/117208740-bfb78400-adf5-11eb-97bb-09072b6bedfc.png)
+![python](https://user-images.githubusercontent.com/25181517/183423507-c056a6f9-1ba8-4312-a350-19bcbc5a8697.png) ![PostgreSQL](https://user-images.githubusercontent.com/25181517/117208740-bfb78400-adf5-11eb-97bb-09072b6bedfc.png)
 ## Installation
 
 Make sure you have Python installed. Run the following command to install the required dependencies:
